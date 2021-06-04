@@ -1,7 +1,19 @@
 ## http://www.shellfunc.com/
 
 
-The shell Function
+## Web shell
+
+A web shell is a shell-esque interface that enables a web server to be remotely accessed.
+
+A web shell is unique in that a web browser is used to interact with it.
+
+A web shell could be programmed in any programming language that is supported on a server. Web shells are most commonly written in the PHP programming language due to the widespread usage of PHP for web applications. However, Active Server Pages, ASP.NET, Python, Perl, Ruby, and Unix shell scripts are also used, although these languages are less commonly used
+
+Using network monitoring tools, an attacker can find vulnerabilities that can potentially allow delivery of a web shell. These vulnerabilities are often present in applications that are run on a web serve
+
+An attacker can use a web shell to issue shell commands, perform privilege escalation on the web server, and the ability to upload, delete, download, and execute files to and from the web server
+
+## The shell Function
 The shell function is unlike any other function other than the wildcard function (see The Function wildcard) in that it communicates with the world outside of make.
 
 The shell function performs the same function that backquotes ' perform in most shells: it does command expansion. 
